@@ -1,3 +1,5 @@
    1   banana      2   fruta
    2   morango      2   fruta
    1   pera      3   fruta
+ 1 Limao 43 Fruta
+ 2 Uva 2 Fruta
