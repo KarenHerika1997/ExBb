@@ -38,7 +38,12 @@ while bol:
         print('   Id-Produto-Qtd-Categoria')
         print(arquivo.read())
         idex = input('Qual item você deseja excluir? ')
-        
+        with open(arquivo, 'w') as arq:
+            if idex in arq:
+                idex = ""
+                produto = ""
+                quantidade = ""
+                categoria = ""
                 
     elif opcao == 4:
         bol = False
